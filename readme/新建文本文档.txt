@@ -1,0 +1,1 @@
+docker run -d --name hanxin --restart always -p 5151:8888 -v ${PWD}:/mnt dulics/hanxin_tts:v2 python /mnt/app.py
